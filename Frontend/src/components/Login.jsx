@@ -15,7 +15,7 @@ function Login() {
             email: data.email,
             password: data.password
         }
-        await axios.post("https://book-store-wyop.vercel.app/", userInfo)
+        await axios.post("https://book-store-kappa-khaki.vercel.app/", userInfo)
             .then((res) => {
                 console.log(res.data);
                 if (res.data) {
